@@ -42,3 +42,7 @@ h1 {
 .recipe {
     background-color: rgb(172, 172, 68);
 }
+
+.ordered-list li {
+    list-style-type: decimal;
+}
