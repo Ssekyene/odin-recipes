@@ -1,31 +1,58 @@
 body {
     font-family: "Courier New", monospace;
     font-size: 16px;
-    background-color: rgba(184, 173, 173, 0.11);
+    background-color: #eee;
 }
 
-h1 {
-    font-size: 2.5rem;
+/***** index page ******/
+
+.content-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.center {
+    margin-top: 45%;
+}
+
+.logo {
+    font-size: 3rem;
     color: rebeccapurple;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
 }
 
-#recipe-list {
-    font-size: 1.2rem;
+.recipes-nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
 }
 
-#recipe-list a {
-    color: rgb(194, 191, 23);
+.nav-list li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.nav-list li:hover  {
+    background-color: #eeeeee25;
+}
+
+.nav-list li a:hover {
+    color: #8b0303;
+    
+}
+.nav-list a {
     text-decoration: none;
 }
 
-.list li {
-    list-style-type: circle;
-    margin-bottom: 5px;
-}
-#recipe-list a:hover {
-    text-decoration: underline;
-    color: rebeccapurple;
-}
+
+
+
 
 .nav-link {
     text-decoration: none;
@@ -46,3 +73,4 @@ h1 {
 .ordered-list li {
     list-style-type: decimal;
 }
+
